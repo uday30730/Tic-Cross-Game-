@@ -1,0 +1,38 @@
+document.getElementById('gameover').innerHTML = "Game over! You got a score of " + score;
+}
+ball.style.left = '300px';
+ball.style.top = '410px';
+}
+
+function shootRight(){
+van ran = Math.random();
+
+while(parseInt(ball.style.top != 300){
+ball.style.left = parseInt(ball.style.left) + 1 + 'px';
+ball.style.top = parseInt(ball.style.top) - 1 + 'px';
+animate = setTimeout(shootRight,20);
+}
+if(ran>0.7){
+score = score + 1;
+document.getElementById('score').innerHTML = score;
+}
+else{
+document.getElementById('score').innerHTML = score;
+}
+x++;
+if(x==10){
+document.getElementById('gameover').innerHTML = "Game over! You got a score of " + score;
+}
+ball.style.left = '300px';
+ball.style.top = '410px';
+}
+
+}
+
+
+</script>
+
+</body>
+
+
+</html>
